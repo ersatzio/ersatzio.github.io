@@ -1,7 +1,7 @@
 # Site settings
 title: Ersatz.io
 email: alex@ersatz.io
-description: Homepage for Ersatz.io: Great, Enterprise-Grade API Mocks.
+description: Ersatz.io is Great, Enterprise-Grade API Mocks. Leave us your address to be kept up-to-date.
 baseurl: "/test" # the subpath of your site, e.g. /blog
 url: "https://ersatzio.github.io" # the base hostname & protocol for your site
 
