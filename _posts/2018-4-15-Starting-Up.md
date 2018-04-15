@@ -1,6 +1,7 @@
 ---
 title: Starting Up
 layout: post
+permalink: 2018-04-15-starting-up.html
 published: true
 ---
 
