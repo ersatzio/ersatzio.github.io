@@ -10,10 +10,7 @@
 
 <!-- Header -->
 <header id="header">
-	<nav style="float: right;">
-		<h2 style="display: inline;"><a href="{{ '/blog' | relative_url }}">Blog</a></h2>
-		<h2 style="display: inline; padding-left: 25px;"><a href="{{ '/' | relative_url }}">Home</a></h2>
-	</nav>
+	{% include nav.html %}
 	<h1>{{ site.title }}</h1>
 	<p>{{ site.description }}</p>
 </header>
