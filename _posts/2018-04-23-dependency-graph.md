@@ -8,7 +8,7 @@ published: true
 <link href="http://visjs.org/dist/vis-network.min.css" rel="stylesheet" type="text/css"/>
 
 <style type="text/css">
-    #mynetwork {
+    #tmfdeps {
         width: 1900px;
         height: 1000px;
         border: 1px solid lightgray;
