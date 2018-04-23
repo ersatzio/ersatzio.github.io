@@ -17,6 +17,8 @@ published: true
 
 <div id="tmfdeps"></div>
 
+<script type="text/javascript" src="http://visjs.org/dist/vis.js"></script>
+
 <script type="text/javascript">
   // create an array with nodes
   var nodes = new vis.DataSet([
@@ -1168,5 +1170,3 @@ published: true
   var options = {}
   var network = new vis.Network(container, data, options)
 </script>
-
-<script type="text/javascript" src="http://visjs.org/dist/vis.js"></script>
