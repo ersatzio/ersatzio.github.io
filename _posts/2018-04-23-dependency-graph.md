@@ -2,7 +2,7 @@
 title: The TMForum Dependency Graph
 layout: post
 permalink: 2018-04-23-dependency-graph.html
-published: true
+published: false
 ---
 
 <link href="http://visjs.org/dist/vis-network.min.css" rel="stylesheet" type="text/css"/>
