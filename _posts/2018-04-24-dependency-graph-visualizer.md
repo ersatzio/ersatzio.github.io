@@ -15,4 +15,4 @@ You can plan your TMForum build investments in the same way, and we'd like to he
 
 Have fun playing with the dependency visualization!
 
-<iframe src="https://raw.githubusercontent.com/ersatzio/ersatzio.github.io/master/assets/html/depmap.html" />
+<iframe src="https://raw.githubusercontent.com/ersatzio/ersatzio.github.io/master/assets/html/depmap.html"></iframe>
