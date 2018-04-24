@@ -1,9 +1,15 @@
 ---
-title: The TMForum Dependency Graph
+title: The TMForum Dependency Graph Visualizer
 layout: post
-permalink: 2018-04-24-dependency-graph.html
+permalink: 2018-04-24-dependency-graph-visualizer.html
 published: true
 ---
+
+Below is an interactive visualization of our TMForum Open API dependency map. Select an API node and drag it around to see how it's connected to all of the other TMForum Open APIs. It's unreasonably fun 😄
+
+When we sat down to build TMForum mocks for [the community backlog you voted on](https://docs.google.com/forms/d/e/1FAIpQLSfSe94015z7HtFO7HCyavmtcLdF3ogxaWvUMMstmlPX-2GDJQ/viewform) we started by mapping all of our dependencies. This let us plan our development time investments for maximum impact.
+
+[Get in touch with me](mailto:alex@ersatz.io) if you'd like more information, and have fun playing with the dependency visualization!
 
 <link href="http://visjs.org/dist/vis-network.min.css" rel="stylesheet" type="text/css"/>
 
@@ -11,7 +17,7 @@ published: true
     #tmfdeps {
             /* width: 1900px; */
             height: 800px;
-            background: lightgrey;
+            background-color:rgba(0, 0, 0, 0.5);
             /* border: 1px solid lightgray; */
     }
 </style>
