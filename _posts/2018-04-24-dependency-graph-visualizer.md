@@ -5,7 +5,7 @@ permalink: 2018-04-24-dependency-graph-visualizer.html
 published: false
 ---
 
-Below is an interactive visualization of our TMForum Open API dependency map. Select an API node and drag it around to see how it's connected to all of the other TMForum Open APIs. It's an unreasonably fun way to prioritize your TMForum backlog 😄
+[Here is an interactive visualization of our TMForum Open API dependency map](/depviz). Select an API node and drag it around to see how it's connected to all of the other TMForum Open APIs. It's an unreasonably fun way to prioritize your TMForum backlog 😄
 
 When we sat down to build TMForum mocks for [the backlog you voted on](https://docs.google.com/forms/d/e/1FAIpQLSfSe94015z7HtFO7HCyavmtcLdF3ogxaWvUMMstmlPX-2GDJQ/viewform) we started with discovery. To build the dependency map we extracted metadata from the TMForum Open API specifciations manually. We then generated the visualization from that metadata.
 
