@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 ---
 
 <link href="http://visjs.org/dist/vis-network.min.css" rel="stylesheet" type="text/css"/>
