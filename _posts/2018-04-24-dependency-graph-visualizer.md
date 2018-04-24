@@ -2,7 +2,7 @@
 title: Prioritizing TMForum Open API Dependencies with Ersatz Visualizer
 layout: post
 permalink: 2018-04-24-dependency-graph-visualizer.html
-published: true
+published: false
 ---
 
 Below is an interactive visualization of our TMForum Open API dependency map. Select an API node and drag it around to see how it's connected to all of the other TMForum Open APIs. It's an unreasonably fun way to prioritize your TMForum backlog 😄
