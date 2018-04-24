@@ -1,17 +1,18 @@
 ---
 title: The TMForum Dependency Graph
 layout: post
-permalink: 2018-04-23-dependency-graph.html
-published: false
+permalink: 2018-04-24-dependency-graph.html
+published: true
 ---
 
 <link href="http://visjs.org/dist/vis-network.min.css" rel="stylesheet" type="text/css"/>
 
 <style type="text/css">
     #tmfdeps {
-        width: 1900px;
-        height: 1000px;
-        border: 1px solid lightgray;
+            /* width: 1900px; */
+            height: 800px;
+            background: lightgrey;
+            /* border: 1px solid lightgray; */
     }
 </style>
 
