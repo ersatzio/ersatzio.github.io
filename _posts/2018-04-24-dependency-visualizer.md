@@ -5,12 +5,16 @@ permalink: 2018-04-24-dependency-visualizer.html
 published: true
 ---
 
-[Here is an interactive visualization of our TMForum Open API dependency map](/depviz). Select an API node and drag it around to see how it's connected to all of the other TMForum Open APIs. It's an unreasonably fun way to prioritize your TMForum backlog 😄
+Today we've released [an interactive visualization of our TMForum Open API dependency map](/depviz). Select an API node and drag it around to see how it's connected to all of the other TMForum Open APIs. It's an unreasonably fun way to see your TMForum dependencies 😄
 
-When we sat down to build TMForum mocks for [the backlog you voted on](https://docs.google.com/forms/d/e/1FAIpQLSfSe94015z7HtFO7HCyavmtcLdF3ogxaWvUMMstmlPX-2GDJQ/viewform) we started with discovery. To build the dependency map we extracted metadata from the TMForum Open API specifications manually. We then generated the visualization tool from that metadata.
+When planning a large API development program there are first- and second- order requirements. The direct needs of the consumers of your APIs are first-order requirements: "as a consumer of the enterprise API platform, I would like to retrieve fulfillment information", for example. The dependencies of those first-order requirements are, of course, second-order: "the Customer Management API depends on the Party Management API", for example.
 
-Mapping the graph of dependencies within the TMForum Open APIs helped us invest our time more wisely. If there's an API several other backlog APIs depended on, we move that dependency to the front of the backlog. If there's a dependency that is important to the ecosystem, but not important to our downstream consumers (like Party Management), we deprioritize it.
+When you, our community, [voted on the order](https://docs.google.com/forms/d/e/1FAIpQLSfSe94015z7HtFO7HCyavmtcLdF3ogxaWvUMMstmlPX-2GDJQ/viewform) that we should build mock TMForum implementations, you gave us our first-order requirements. Then we went about solving for our second-order requirements.
 
-You can plan your TMForum build investments in the same way, and we'd like to help. [Get in touch with me](mailto:alex@ersatz.io) (alex@ersatz.io) if you'd like your own copy of the dependency metadata, and [head over to our main page](http://ersatz.io/) to sign up for future updates.
+We wanted to do this in a general way, so we manually extracted metadata from the TMForum Open API specifications which defined a complete TMForum dependency graph. We then used this information to prioritize our backlog: not just what you asked us for, but also the most efficient order for us to build it.
 
-Have fun playing with the dependency visualization!
+Thoughts?
+
+[Get in touch with me](mailto:alex@ersatz.io) (alex@ersatz.io), especially if you'd like your own copy of our dependency metadata to prioritize your work. And [head over to our main page](http://ersatz.io/) to sign up for future updates.
+
+Have fun playing with the visualizer!
