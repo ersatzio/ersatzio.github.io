@@ -2,7 +2,7 @@
 layout: blog
 ---
 
-Click and drag nodes, scroll to zoom, and if you'd like the TMForum Open API dependency metadata that drives this visualization [get in touch with us](mailto:alex@ersatz.io)!
+Click and drag nodes, scroll to zoom, and if you'd like the TMForum Open API dependency metadata that drives this visualization [get in touch with us](mailto:alex@ersatz.io) (alex@ersatz.io)!
 
 <link href="http://visjs.org/dist/vis-network.min.css" rel="stylesheet" type="text/css"/>
 
