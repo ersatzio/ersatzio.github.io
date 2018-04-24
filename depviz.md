@@ -7,7 +7,7 @@ layout: blog
 <style type="text/css">
     #tmfdeps {
             /* width: 1900px; */
-            height: 800px;
+            height: 400px;
             background-color:rgba(0, 0, 0, 0.5);
             /* border: 1px solid lightgray; */
     }
