@@ -8,8 +8,8 @@ Click and drag nodes, scroll to zoom, and if you'd like to plan your backlog usi
 
 <style type="text/css">
     #tmfdeps {
-            /* width: 1900px;
-            height: 400px;*/
+            /* width: 1900px;*/
+            height: 1200px;
             background-color:rgba(0, 0, 0, 0.5);
             /* border: 1px solid lightgray; */
     }
